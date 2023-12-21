@@ -1,0 +1,99 @@
+.header {
+    height: 100px;
+    background-color:rgb(226, 116, 226);
+    color: black;
+    line-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+ 
+body {
+    background-color: beige ;
+    color: black;
+}
+ 
+.header h1 {
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bold;
+}
+ 
+h2 {
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+
+    font-weight: bold;
+    background-color: beige;
+    color: black;
+    text-align: center;
+}
+ 
+p {
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bold;
+    background-color: beige;
+    color: black;
+}
+ 
+ul {
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+ 
+.pictures {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    text-align: left;
+    color: black;
+    padding: 10px 13px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    height: 25px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+ 
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    width: 75%;
+}
+
+.video-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content; /* This will make the container fit the iframe's width */
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #007bff; /* Button color */
+    color: white; /* Text color */
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.button:hover {
+    background-color: #0056b3; /* Darker shade for hover effect */
+}
